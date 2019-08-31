@@ -1,0 +1,16 @@
+PODS:
+  - PNGScissors (0.1.0)
+
+DEPENDENCIES:
+  - PNGScissors (from `../`)
+
+EXTERNAL SOURCES:
+  PNGScissors:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PNGScissors: a5f9f966384fd7b7122494c59f4fa8a50ced9fce
+
+PODFILE CHECKSUM: e4ff009c48c57336116779ed3b808d1c20c49e20
+
+COCOAPODS: 1.7.5

@@ -1,0 +1,6 @@
+framework module PNGScissors {
+  umbrella header "PNGScissors-umbrella.h"
+
+  export *
+  module * { export * }
+}
