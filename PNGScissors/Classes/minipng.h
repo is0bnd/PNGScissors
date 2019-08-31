@@ -1,9 +1,9 @@
 //
 //  minipng.h
-//  Scissors
+//  libminipng
 //
-//  Created by is0bnd on 2019/8/30.
-//  Copyright © 2019 is0bnd. All rights reserved.
+//  Created by MLeo on 2019/8/5.
+//  Copyright © 2019年 iChochy http://www.chochy.cn/. All rights reserved.
 //
 
 #ifndef minipng_h

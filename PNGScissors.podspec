@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'PNGScissors'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PNGScissors.'
+  s.summary          = 'A PNG image compression tool.'
+  s.swift_version    = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,17 +25,9 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'is0bnd' => 'is0bnd@icloud.com' }
   s.source           = { :git => 'https://github.com/is0bnd/PNGScissors.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.3'
 
   s.source_files = 'PNGScissors/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'PNGScissors' => ['PNGScissors/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

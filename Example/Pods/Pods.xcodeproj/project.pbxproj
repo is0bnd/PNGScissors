@@ -15,7 +15,6 @@
 		68A23C3759F9198A8709A8070F32947E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		742859F6231A5CB000E18F97 /* PNGScissors.h in Headers */ = {isa = PBXBuildFile; fileRef = 742859E0231A5CB000E18F97 /* PNGScissors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		742859F7231A5CB000E18F97 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742859E1231A5CB000E18F97 /* UIImage.swift */; };
-		742859F8231A5CB000E18F97 /* minipng.h in Headers */ = {isa = PBXBuildFile; fileRef = 742859E2231A5CB000E18F97 /* minipng.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		742859F9231A5CB000E18F97 /* minipng.c in Sources */ = {isa = PBXBuildFile; fileRef = 742859E3231A5CB000E18F97 /* minipng.c */; };
 		742859FA231A5CB000E18F97 /* lodepng.h in Headers */ = {isa = PBXBuildFile; fileRef = 742859E5231A5CB000E18F97 /* lodepng.h */; };
 		742859FB231A5CB000E18F97 /* lodepng.c in Sources */ = {isa = PBXBuildFile; fileRef = 742859E6231A5CB000E18F97 /* lodepng.c */; };
@@ -33,6 +32,7 @@
 		74285A07231A5CB000E18F97 /* kmeans.c in Sources */ = {isa = PBXBuildFile; fileRef = 742859F3231A5CB000E18F97 /* kmeans.c */; };
 		74285A08231A5CB000E18F97 /* mempool.h in Headers */ = {isa = PBXBuildFile; fileRef = 742859F4231A5CB000E18F97 /* mempool.h */; };
 		74285A09231A5CB000E18F97 /* nearest.c in Sources */ = {isa = PBXBuildFile; fileRef = 742859F5231A5CB000E18F97 /* nearest.c */; };
+		74285A0B231A667E00E18F97 /* minipng.h in Headers */ = {isa = PBXBuildFile; fileRef = 74285A0A231A667E00E18F97 /* minipng.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EAB8C04B45A73962C9362E9D8A78A0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A8795EB7065362B8686EC8CBE5E36E11 /* Pods-PNGScissors_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6260F415D666A5EDC6F80B3AF251FB2B /* Pods-PNGScissors_Example-dummy.m */; };
 		F5BB937F702CE07E14BB3D76C4390715 /* Pods-PNGScissors_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7662DE960A03122CB0E8D007F242B9F /* Pods-PNGScissors_Tests-dummy.m */; };
@@ -75,7 +75,6 @@
 		6B96BE10745B3778BE0FC485BA12C443 /* PNGScissors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PNGScissors-dummy.m"; sourceTree = "<group>"; };
 		742859E0231A5CB000E18F97 /* PNGScissors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PNGScissors.h; path = PNGScissors/Classes/PNGScissors.h; sourceTree = "<group>"; };
 		742859E1231A5CB000E18F97 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = PNGScissors/Classes/UIImage.swift; sourceTree = "<group>"; };
-		742859E2231A5CB000E18F97 /* minipng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = minipng.h; sourceTree = "<group>"; };
 		742859E3231A5CB000E18F97 /* minipng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = minipng.c; path = PNGScissors/Classes/minipng.c; sourceTree = "<group>"; };
 		742859E5231A5CB000E18F97 /* lodepng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lodepng.h; sourceTree = "<group>"; };
 		742859E6231A5CB000E18F97 /* lodepng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lodepng.c; sourceTree = "<group>"; };
@@ -93,6 +92,7 @@
 		742859F3231A5CB000E18F97 /* kmeans.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kmeans.c; sourceTree = "<group>"; };
 		742859F4231A5CB000E18F97 /* mempool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mempool.h; sourceTree = "<group>"; };
 		742859F5231A5CB000E18F97 /* nearest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nearest.c; sourceTree = "<group>"; };
+		74285A0A231A667E00E18F97 /* minipng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = minipng.h; path = PNGScissors/Classes/minipng.h; sourceTree = "<group>"; };
 		746CB567A8EF9E24B2F793B31F75D734 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7659A91E810AFD8149DBB180AE786B66 /* Pods-PNGScissors_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PNGScissors_Tests-Info.plist"; sourceTree = "<group>"; };
 		8D2A0398F776301C9BE966CCF0544099 /* Pods-PNGScissors_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PNGScissors_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -199,19 +199,19 @@
 			isa = PBXGroup;
 			children = (
 				742859E8231A5CB000E18F97 /* pam.h */,
-				742859E9231A5CB000E18F97 /* libimagequant.c */,
+				742859EF231A5CB000E18F97 /* pam.c */,
 				742859EA231A5CB000E18F97 /* blur.h */,
+				742859F1231A5CB000E18F97 /* blur.c */,
+				742859F0231A5CB000E18F97 /* mediancut.h */,
 				742859EB231A5CB000E18F97 /* mediancut.c */,
 				742859EC231A5CB000E18F97 /* nearest.h */,
+				742859F5231A5CB000E18F97 /* nearest.c */,
 				742859ED231A5CB000E18F97 /* mempool.c */,
 				742859EE231A5CB000E18F97 /* kmeans.h */,
-				742859EF231A5CB000E18F97 /* pam.c */,
-				742859F0231A5CB000E18F97 /* mediancut.h */,
-				742859F1231A5CB000E18F97 /* blur.c */,
 				742859F2231A5CB000E18F97 /* libimagequant.h */,
+				742859E9231A5CB000E18F97 /* libimagequant.c */,
 				742859F3231A5CB000E18F97 /* kmeans.c */,
 				742859F4231A5CB000E18F97 /* mempool.h */,
-				742859F5231A5CB000E18F97 /* nearest.c */,
 			);
 			name = pngquant;
 			path = PNGScissors/Classes/pngquant;
@@ -221,8 +221,8 @@
 			isa = PBXGroup;
 			children = (
 				742859E0231A5CB000E18F97 /* PNGScissors.h */,
+				74285A0A231A667E00E18F97 /* minipng.h */,
 				742859E1231A5CB000E18F97 /* UIImage.swift */,
-				742859E2231A5CB000E18F97 /* minipng.h */,
 				742859E3231A5CB000E18F97 /* minipng.c */,
 				742859E4231A5CB000E18F97 /* lodepng */,
 				742859E7231A5CB000E18F97 /* pngquant */,
@@ -303,14 +303,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74285A08231A5CB000E18F97 /* mempool.h in Headers */,
 				742859F6231A5CB000E18F97 /* PNGScissors.h in Headers */,
-				742859F8231A5CB000E18F97 /* minipng.h in Headers */,
+				74285A0B231A667E00E18F97 /* minipng.h in Headers */,
+				41C93792C9D7BF99AAFF4DE200E70A31 /* PNGScissors-umbrella.h in Headers */,
+				74285A08231A5CB000E18F97 /* mempool.h in Headers */,
 				742859FC231A5CB000E18F97 /* pam.h in Headers */,
 				742859FE231A5CB000E18F97 /* blur.h in Headers */,
 				74285A04231A5CB000E18F97 /* mediancut.h in Headers */,
 				742859FA231A5CB000E18F97 /* lodepng.h in Headers */,
-				41C93792C9D7BF99AAFF4DE200E70A31 /* PNGScissors-umbrella.h in Headers */,
 				74285A02231A5CB000E18F97 /* kmeans.h in Headers */,
 				74285A06231A5CB000E18F97 /* libimagequant.h in Headers */,
 				74285A00231A5CB000E18F97 /* nearest.h in Headers */,

@@ -17,8 +17,6 @@ You should have received a copy of the GNU General Public License
 along with libimagequant. If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include "libimagequant.h"
-#include "pam.h"
 #include "blur.h"
 
 /*

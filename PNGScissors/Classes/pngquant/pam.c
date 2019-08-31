@@ -10,9 +10,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "libimagequant.h"
 #include "pam.h"
-#include "mempool.h"
 
 LIQ_PRIVATE bool pam_computeacolorhash(struct acolorhash_table *acht,
                                        const rgba_pixel *const pixels[],
@@ -117,7 +115,7 @@ LIQ_PRIVATE bool pam_add_to_hash(struct acolorhash_table *acht, unsigned int has
                 if (acht->freestackp <= 0) {
                     // estimate how many colors are going to be + headroom
                     const size_t mempool_size = ((acht->rows + rows-row) * 2 * acht->colors / (acht->rows + row + 1) + 1024) * sizeof(struct acolorhist_arr_item);
-                    new_items = mempool_alloc(&acht->mempool, sizeof(struct acolorhist_arr_item)*capacity, mempool_size);
+                    new_items = mempool_alloc(&acht->mempool, sizeof(struct acolorhist_arr_item)*capacity, (unsigned int)mempool_size);
                 } else {
                     // freestack stores previously freed (reallocated) arrays that can be reused
                     // (all pesimistically assumed to be capacity = 8)
@@ -132,7 +130,7 @@ LIQ_PRIVATE bool pam_add_to_hash(struct acolorhash_table *acht, unsigned int has
                     acht->freestack[acht->freestackp++] = other_items;
                 }
                 const size_t mempool_size = ((acht->rows + rows-row) * 2 * acht->colors / (acht->rows + row + 1) + 32*capacity) * sizeof(struct acolorhist_arr_item);
-                new_items = mempool_alloc(&acht->mempool, sizeof(struct acolorhist_arr_item)*capacity, mempool_size);
+                new_items = mempool_alloc(&acht->mempool, sizeof(struct acolorhist_arr_item)*capacity, (unsigned int)mempool_size);
                 if (!new_items) return false;
                 memcpy(new_items, other_items, sizeof(other_items[0])*achl->capacity);
             }
@@ -168,11 +166,11 @@ LIQ_PRIVATE struct acolorhash_table *pam_allocacolorhash(unsigned int maxcolors,
     mempoolptr m = NULL;
     const size_t buckets_size = hash_size * sizeof(struct acolorhist_arr_head);
     const size_t mempool_size = sizeof(struct acolorhash_table) + buckets_size + estimated_colors * sizeof(struct acolorhist_arr_item);
-    struct acolorhash_table *t = mempool_create(&m, sizeof(*t) + buckets_size, mempool_size, malloc, free);
+    struct acolorhash_table *t = mempool_create(&m, (unsigned int)(sizeof(*t) + buckets_size), (unsigned int)mempool_size, malloc, free);
     if (!t) return NULL;
     *t = (struct acolorhash_table){
         .mempool = m,
-        .hash_size = hash_size,
+        .hash_size = (unsigned int)hash_size,
         .maxcolors = maxcolors,
         .ignorebits = ignorebits,
     };
