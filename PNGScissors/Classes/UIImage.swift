@@ -10,6 +10,10 @@ import UIKit
 
 public extension UIImage {
     
+    /// PNG compressed data with quality
+    ///
+    /// - Parameter quality: data quality(0~100)
+    /// - Returns: compressed data
     func compressed(quality: Int32) -> Data? {
         if let data = pngData() {
             var mini:UnsafeMutablePointer<UInt8>? = UnsafeMutablePointer.allocate(capacity: 0)
@@ -27,5 +31,6 @@ public extension UIImage {
             return nil
         }
     }
+    
 }
 

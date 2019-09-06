@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.author           = { 'is0bnd' => 'is0bnd@icloud.com' }
   s.source           = { :git => 'https://github.com/is0bnd/PNGScissors.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.3'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'PNGScissors/Classes/**/*'
   

@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		025B622AEF90083C2BE895AA557B08FE /* blur.c in Sources */ = {isa = PBXBuildFile; fileRef = 68F207B637BD250BF9A16A2176D7A338 /* blur.c */; };
 		09EC271381B994BE0573A716D47815E2 /* Pods-PNGScissors_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E75CFCA8F6C587341286FD49F19CD0 /* Pods-PNGScissors_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14AD88A455710461A8889464359AEFBA /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AD7B3209A40DD349E580A46778719 /* UIImage.swift */; };
+		15E50588A47985F97B0A31384ABE263A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		16C53D0DB5412D9526EBDAA9BFFCF8AB /* Pods-PNGScissors_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D2A0398F776301C9BE966CCF0544099 /* Pods-PNGScissors_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A57EAFB281EE65C7A175729C9B74A85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		41C93792C9D7BF99AAFF4DE200E70A31 /* PNGScissors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E520F62B3684488DBD1E345B125941 /* PNGScissors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AB84FEC6806DFE4F4F3B8A5EEFAF6C1 /* PNGScissors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B96BE10745B3778BE0FC485BA12C443 /* PNGScissors-dummy.m */; };
-		68A23C3759F9198A8709A8070F32947E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		742859F6231A5CB000E18F97 /* PNGScissors.h in Headers */ = {isa = PBXBuildFile; fileRef = 742859E0231A5CB000E18F97 /* PNGScissors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		742859F7231A5CB000E18F97 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742859E1231A5CB000E18F97 /* UIImage.swift */; };
-		742859F9231A5CB000E18F97 /* minipng.c in Sources */ = {isa = PBXBuildFile; fileRef = 742859E3231A5CB000E18F97 /* minipng.c */; };
-		742859FA231A5CB000E18F97 /* lodepng.h in Headers */ = {isa = PBXBuildFile; fileRef = 742859E5231A5CB000E18F97 /* lodepng.h */; };
-		742859FB231A5CB000E18F97 /* lodepng.c in Sources */ = {isa = PBXBuildFile; fileRef = 742859E6231A5CB000E18F97 /* lodepng.c */; };
-		742859FC231A5CB000E18F97 /* pam.h in Headers */ = {isa = PBXBuildFile; fileRef = 742859E8231A5CB000E18F97 /* pam.h */; };
-		742859FD231A5CB000E18F97 /* libimagequant.c in Sources */ = {isa = PBXBuildFile; fileRef = 742859E9231A5CB000E18F97 /* libimagequant.c */; };
-		742859FE231A5CB000E18F97 /* blur.h in Headers */ = {isa = PBXBuildFile; fileRef = 742859EA231A5CB000E18F97 /* blur.h */; };
-		742859FF231A5CB000E18F97 /* mediancut.c in Sources */ = {isa = PBXBuildFile; fileRef = 742859EB231A5CB000E18F97 /* mediancut.c */; };
-		74285A00231A5CB000E18F97 /* nearest.h in Headers */ = {isa = PBXBuildFile; fileRef = 742859EC231A5CB000E18F97 /* nearest.h */; };
-		74285A01231A5CB000E18F97 /* mempool.c in Sources */ = {isa = PBXBuildFile; fileRef = 742859ED231A5CB000E18F97 /* mempool.c */; };
-		74285A02231A5CB000E18F97 /* kmeans.h in Headers */ = {isa = PBXBuildFile; fileRef = 742859EE231A5CB000E18F97 /* kmeans.h */; };
-		74285A03231A5CB000E18F97 /* pam.c in Sources */ = {isa = PBXBuildFile; fileRef = 742859EF231A5CB000E18F97 /* pam.c */; };
-		74285A04231A5CB000E18F97 /* mediancut.h in Headers */ = {isa = PBXBuildFile; fileRef = 742859F0231A5CB000E18F97 /* mediancut.h */; };
-		74285A05231A5CB000E18F97 /* blur.c in Sources */ = {isa = PBXBuildFile; fileRef = 742859F1231A5CB000E18F97 /* blur.c */; };
-		74285A06231A5CB000E18F97 /* libimagequant.h in Headers */ = {isa = PBXBuildFile; fileRef = 742859F2231A5CB000E18F97 /* libimagequant.h */; };
-		74285A07231A5CB000E18F97 /* kmeans.c in Sources */ = {isa = PBXBuildFile; fileRef = 742859F3231A5CB000E18F97 /* kmeans.c */; };
-		74285A08231A5CB000E18F97 /* mempool.h in Headers */ = {isa = PBXBuildFile; fileRef = 742859F4231A5CB000E18F97 /* mempool.h */; };
-		74285A09231A5CB000E18F97 /* nearest.c in Sources */ = {isa = PBXBuildFile; fileRef = 742859F5231A5CB000E18F97 /* nearest.c */; };
-		74285A0B231A667E00E18F97 /* minipng.h in Headers */ = {isa = PBXBuildFile; fileRef = 74285A0A231A667E00E18F97 /* minipng.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B67B31D35B290B79E2E9899B41639F4 /* mediancut.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A799C0CF0A01A9A869742FDFDA486CF /* mediancut.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F499588DB9B47EEB92E837AFF076557 /* lodepng.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D4BE7EF2470A8093DADB0F723DB1B3E /* lodepng.c */; };
+		1F92F30F51E217EA84A606DC9391CDF7 /* mediancut.c in Sources */ = {isa = PBXBuildFile; fileRef = 42EC7DD690F4DDEF92FA84A3CF1FD939 /* mediancut.c */; };
+		2BCABAB86BB8032866648BF8CCC62809 /* kmeans.h in Headers */ = {isa = PBXBuildFile; fileRef = ABAABF1C79C647DC5B9EA859CF42F1CC /* kmeans.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FEC842E6612110C7C112C86889606C7 /* pam.h in Headers */ = {isa = PBXBuildFile; fileRef = F483FB5E145D82C71CFB0589C8F54020 /* pam.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62D12672D4EE666D9E4BD83FC3FFBCE2 /* mempool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4020AD31B2E09CCBEE0DCADD38C08B0A /* mempool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64246B9D843093E7D4767A9398E43A8D /* blur.h in Headers */ = {isa = PBXBuildFile; fileRef = BD41757312389A7B44645EE691AC1202 /* blur.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EAB8C04B45A73962C9362E9D8A78A0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		818BC10642D3A5D11316EBF70902C115 /* minipng.c in Sources */ = {isa = PBXBuildFile; fileRef = 85E895B59B185ED73833665A59C34829 /* minipng.c */; };
+		849A3C2C06E0DBE2F3678B9E0BB9391F /* PNGScissors.h in Headers */ = {isa = PBXBuildFile; fileRef = FD0D619E52BE73A52912CA423F8C19B3 /* PNGScissors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		987FA1E7F93572B31D588C528191EC52 /* PNGScissors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C7FB61FC1284C7C6C9FA2338CF4914 /* PNGScissors-dummy.m */; };
 		A8795EB7065362B8686EC8CBE5E36E11 /* Pods-PNGScissors_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6260F415D666A5EDC6F80B3AF251FB2B /* Pods-PNGScissors_Example-dummy.m */; };
+		B094D0F2DBA4823C45E27F25E8924EE4 /* lodepng.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E9CCC1DBB58FB983FF3367020C9FB0 /* lodepng.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB4DA6962C992C4DB622D6F1B3F1190A /* libimagequant.h in Headers */ = {isa = PBXBuildFile; fileRef = A20364840029CA7D228C5AD48E7608DA /* libimagequant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C34A3924ADB0094837F915A7BAC2F671 /* libimagequant.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B9A2871D6B66E3C0E196C82C30D7624 /* libimagequant.c */; };
+		CA02FFF0EB9D55428EA439947384F089 /* nearest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E236C0F0DCF8F6C8AD5AE04B0629752 /* nearest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D099090EA5341F2E92AD9D1D83A5309F /* minipng.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4DEB7F72A64864B8D3898B47FBF0CE /* minipng.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5564189446FAE3455F47EE491EE7B5C /* mempool.c in Sources */ = {isa = PBXBuildFile; fileRef = D804CB61D852292E08157A18BDCF0837 /* mempool.c */; };
+		DA1C5A73D54A62CA2EECA872321A016F /* PNGScissors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 821DC7D96025157773C1B92701E21313 /* PNGScissors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBB129AA97CB3685F3F0BA34EA0CE6ED /* kmeans.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A17DF3CB618E927645CDB1D831C5F86 /* kmeans.c */; };
 		F5BB937F702CE07E14BB3D76C4390715 /* Pods-PNGScissors_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7662DE960A03122CB0E8D007F242B9F /* Pods-PNGScissors_Tests-dummy.m */; };
+		F9369A1D5CF28D36BE288702F5E226A8 /* nearest.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B987027498DF92E0014E6B5CAFA9E05 /* nearest.c */; };
+		FD5401DFA7DEC725E8AE587B27D8DD85 /* pam.c in Sources */ = {isa = PBXBuildFile; fileRef = EBC372BE9F333DDC19BB8ED9A38658E8 /* pam.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,64 +57,64 @@
 
 /* Begin PBXFileReference section */
 		04B8E66EB0EB6BF90A85759BA3E6736A /* Pods-PNGScissors_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PNGScissors_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		082D835D5CA4DC9A67ED743B7DF79B1A /* PNGScissors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PNGScissors-prefix.pch"; sourceTree = "<group>"; };
 		0BBAFA34990675E1D0E9A142DE7E5B24 /* Pods-PNGScissors_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PNGScissors_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		22F50F796594B120740A23856BE7E4C5 /* PNGScissors-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PNGScissors-Info.plist"; sourceTree = "<group>"; };
+		1A17DF3CB618E927645CDB1D831C5F86 /* kmeans.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = kmeans.c; sourceTree = "<group>"; };
 		27847C5F301EDAAF08A0E65554973D29 /* Pods-PNGScissors_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PNGScissors_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2A799C0CF0A01A9A869742FDFDA486CF /* mediancut.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mediancut.h; sourceTree = "<group>"; };
 		2BA29D6861C9D694E30EF34E16EA685B /* Pods-PNGScissors_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PNGScissors_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30E9CCC1DBB58FB983FF3367020C9FB0 /* lodepng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lodepng.h; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		333A362383F77C3A5F8C9EF990618A21 /* Pods_PNGScissors_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PNGScissors_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		34E520F62B3684488DBD1E345B125941 /* PNGScissors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PNGScissors-umbrella.h"; sourceTree = "<group>"; };
+		3D4BE7EF2470A8093DADB0F723DB1B3E /* lodepng.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lodepng.c; sourceTree = "<group>"; };
+		4020AD31B2E09CCBEE0DCADD38C08B0A /* mempool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mempool.h; sourceTree = "<group>"; };
+		42EC7DD690F4DDEF92FA84A3CF1FD939 /* mediancut.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = mediancut.c; sourceTree = "<group>"; };
 		4382168B0887A442B4E5003CB819A771 /* Pods_PNGScissors_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PNGScissors_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9A87A78309EE5E85D873D550F9C5A9 /* Pods-PNGScissors_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PNGScissors_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4C617E27BB5AE7FDE4AC942168897A7A /* Pods-PNGScissors_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PNGScissors_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		586FE2CBA10519D955D83CD5295BC87A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5E236C0F0DCF8F6C8AD5AE04B0629752 /* nearest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = nearest.h; sourceTree = "<group>"; };
+		61C7FB61FC1284C7C6C9FA2338CF4914 /* PNGScissors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PNGScissors-dummy.m"; sourceTree = "<group>"; };
 		6260F415D666A5EDC6F80B3AF251FB2B /* Pods-PNGScissors_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PNGScissors_Example-dummy.m"; sourceTree = "<group>"; };
-		6576CCB84031537104F3486BCBBC0B5F /* PNGScissors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PNGScissors.modulemap; sourceTree = "<group>"; };
 		672E22F7CA25BB2FA1C037B54810B460 /* Pods-PNGScissors_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PNGScissors_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6B96BE10745B3778BE0FC485BA12C443 /* PNGScissors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PNGScissors-dummy.m"; sourceTree = "<group>"; };
-		742859E0231A5CB000E18F97 /* PNGScissors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PNGScissors.h; path = PNGScissors/Classes/PNGScissors.h; sourceTree = "<group>"; };
-		742859E1231A5CB000E18F97 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = PNGScissors/Classes/UIImage.swift; sourceTree = "<group>"; };
-		742859E3231A5CB000E18F97 /* minipng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = minipng.c; path = PNGScissors/Classes/minipng.c; sourceTree = "<group>"; };
-		742859E5231A5CB000E18F97 /* lodepng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lodepng.h; sourceTree = "<group>"; };
-		742859E6231A5CB000E18F97 /* lodepng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lodepng.c; sourceTree = "<group>"; };
-		742859E8231A5CB000E18F97 /* pam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pam.h; sourceTree = "<group>"; };
-		742859E9231A5CB000E18F97 /* libimagequant.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libimagequant.c; sourceTree = "<group>"; };
-		742859EA231A5CB000E18F97 /* blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blur.h; sourceTree = "<group>"; };
-		742859EB231A5CB000E18F97 /* mediancut.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mediancut.c; sourceTree = "<group>"; };
-		742859EC231A5CB000E18F97 /* nearest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nearest.h; sourceTree = "<group>"; };
-		742859ED231A5CB000E18F97 /* mempool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mempool.c; sourceTree = "<group>"; };
-		742859EE231A5CB000E18F97 /* kmeans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kmeans.h; sourceTree = "<group>"; };
-		742859EF231A5CB000E18F97 /* pam.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pam.c; sourceTree = "<group>"; };
-		742859F0231A5CB000E18F97 /* mediancut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mediancut.h; sourceTree = "<group>"; };
-		742859F1231A5CB000E18F97 /* blur.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blur.c; sourceTree = "<group>"; };
-		742859F2231A5CB000E18F97 /* libimagequant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libimagequant.h; sourceTree = "<group>"; };
-		742859F3231A5CB000E18F97 /* kmeans.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kmeans.c; sourceTree = "<group>"; };
-		742859F4231A5CB000E18F97 /* mempool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mempool.h; sourceTree = "<group>"; };
-		742859F5231A5CB000E18F97 /* nearest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nearest.c; sourceTree = "<group>"; };
-		74285A0A231A667E00E18F97 /* minipng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = minipng.h; path = PNGScissors/Classes/minipng.h; sourceTree = "<group>"; };
-		746CB567A8EF9E24B2F793B31F75D734 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		68F207B637BD250BF9A16A2176D7A338 /* blur.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = blur.c; sourceTree = "<group>"; };
+		6B987027498DF92E0014E6B5CAFA9E05 /* nearest.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = nearest.c; sourceTree = "<group>"; };
+		6C4DEB7F72A64864B8D3898B47FBF0CE /* minipng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = minipng.h; path = PNGScissors/Classes/minipng.h; sourceTree = "<group>"; };
+		6E5E3FFFEA4701A284701FB689E780D3 /* PNGScissors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PNGScissors.modulemap; sourceTree = "<group>"; };
+		7201030D4F1CE3C6B9C3E33D36CE16AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		722000414A7208D4B7AEA8BDC755C1F1 /* PNGScissors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PNGScissors.xcconfig; sourceTree = "<group>"; };
 		7659A91E810AFD8149DBB180AE786B66 /* Pods-PNGScissors_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PNGScissors_Tests-Info.plist"; sourceTree = "<group>"; };
+		7B9A2871D6B66E3C0E196C82C30D7624 /* libimagequant.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = libimagequant.c; sourceTree = "<group>"; };
+		821DC7D96025157773C1B92701E21313 /* PNGScissors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PNGScissors-umbrella.h"; sourceTree = "<group>"; };
+		85E895B59B185ED73833665A59C34829 /* minipng.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = minipng.c; path = PNGScissors/Classes/minipng.c; sourceTree = "<group>"; };
 		8D2A0398F776301C9BE966CCF0544099 /* Pods-PNGScissors_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PNGScissors_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9BFC5279AF8EF33462818F11BA658FED /* PNGScissors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PNGScissors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A20364840029CA7D228C5AD48E7608DA /* libimagequant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = libimagequant.h; sourceTree = "<group>"; };
+		A51940387F16822DE305A4845E879D51 /* PNGScissors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PNGScissors-prefix.pch"; sourceTree = "<group>"; };
 		A7662DE960A03122CB0E8D007F242B9F /* Pods-PNGScissors_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PNGScissors_Tests-dummy.m"; sourceTree = "<group>"; };
-		A8835D69A7697B39628A982A3B9B008F /* PNGScissors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PNGScissors.xcconfig; sourceTree = "<group>"; };
+		ABAABF1C79C647DC5B9EA859CF42F1CC /* kmeans.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = kmeans.h; sourceTree = "<group>"; };
+		BD41757312389A7B44645EE691AC1202 /* blur.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = blur.h; sourceTree = "<group>"; };
+		C09AD7B3209A40DD349E580A46778719 /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = PNGScissors/Classes/UIImage.swift; sourceTree = "<group>"; };
 		C3E75CFCA8F6C587341286FD49F19CD0 /* Pods-PNGScissors_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PNGScissors_Example-umbrella.h"; sourceTree = "<group>"; };
-		C80C424895D008EC0BF30ACA01608CEC /* PNGScissors.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PNGScissors.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CAE1755EA408A6405BDC216302498852 /* Pods-PNGScissors_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PNGScissors_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D804CB61D852292E08157A18BDCF0837 /* mempool.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = mempool.c; sourceTree = "<group>"; };
+		DFDADB1FFCDA076FEFA8EBC6AE9353C6 /* PNGScissors-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PNGScissors-Info.plist"; sourceTree = "<group>"; };
 		E316ED6EF6ADB523D07CE9F7C2917D27 /* Pods-PNGScissors_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PNGScissors_Example-Info.plist"; sourceTree = "<group>"; };
 		E5CD11580FCBF06457770442C543D963 /* Pods-PNGScissors_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PNGScissors_Example.modulemap"; sourceTree = "<group>"; };
+		EBC372BE9F333DDC19BB8ED9A38658E8 /* pam.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pam.c; sourceTree = "<group>"; };
+		EC981143B31D437CEAA620AC94B3998B /* PNGScissors.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PNGScissors.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ED59E8498AFA47ABF09AD2AB4AF3A2B8 /* Pods-PNGScissors_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PNGScissors_Tests.modulemap"; sourceTree = "<group>"; };
 		F33E7291CA9A7F5E880A21BCB88C2798 /* Pods-PNGScissors_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PNGScissors_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F483FB5E145D82C71CFB0589C8F54020 /* pam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pam.h; sourceTree = "<group>"; };
+		F958C9CF2C271F71917976A5E666D2A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FD0D619E52BE73A52912CA423F8C19B3 /* PNGScissors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNGScissors.h; path = PNGScissors/Classes/PNGScissors.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3DD949C06718001B59C86652EFC6BCD9 /* Frameworks */ = {
+		1A06160E939BD96145A23E5D1ABA9E99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68A23C3759F9198A8709A8070F32947E /* Foundation.framework in Frameworks */,
+				15E50588A47985F97B0A31384ABE263A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +137,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05E793D3A7084B91ECB3D49B64DF325F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7201030D4F1CE3C6B9C3E33D36CE16AD /* LICENSE */,
+				EC981143B31D437CEAA620AC94B3998B /* PNGScissors.podspec */,
+				F958C9CF2C271F71917976A5E666D2A6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		1065A57CB23C27386BA9AF5D2D4DB0D0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,74 +173,36 @@
 			path = "Target Support Files/Pods-PNGScissors_Example";
 			sourceTree = "<group>";
 		};
-		5C3346A3163CCF9524D4580035026283 /* Development Pods */ = {
+		7E0EAF2AB855AE77ADB40660CBE3AF4E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				827B91C850A524B858AA1FC831978A18 /* PNGScissors */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		64E2AFFE9925F8EE6226E051EC213FC5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6576CCB84031537104F3486BCBBC0B5F /* PNGScissors.modulemap */,
-				A8835D69A7697B39628A982A3B9B008F /* PNGScissors.xcconfig */,
-				6B96BE10745B3778BE0FC485BA12C443 /* PNGScissors-dummy.m */,
-				22F50F796594B120740A23856BE7E4C5 /* PNGScissors-Info.plist */,
-				082D835D5CA4DC9A67ED743B7DF79B1A /* PNGScissors-prefix.pch */,
-				34E520F62B3684488DBD1E345B125941 /* PNGScissors-umbrella.h */,
+				6E5E3FFFEA4701A284701FB689E780D3 /* PNGScissors.modulemap */,
+				722000414A7208D4B7AEA8BDC755C1F1 /* PNGScissors.xcconfig */,
+				61C7FB61FC1284C7C6C9FA2338CF4914 /* PNGScissors-dummy.m */,
+				DFDADB1FFCDA076FEFA8EBC6AE9353C6 /* PNGScissors-Info.plist */,
+				A51940387F16822DE305A4845E879D51 /* PNGScissors-prefix.pch */,
+				821DC7D96025157773C1B92701E21313 /* PNGScissors-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/PNGScissors";
 			sourceTree = "<group>";
 		};
-		742859E4231A5CB000E18F97 /* lodepng */ = {
+		8CD5029A29C479EDA0BDB43A602BE8DC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				742859E5231A5CB000E18F97 /* lodepng.h */,
-				742859E6231A5CB000E18F97 /* lodepng.c */,
+				B2DBF448852897957A3D8F651B965071 /* PNGScissors */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		98D50EA94E50C7A78EE0BE21452D1BC9 /* lodepng */ = {
+			isa = PBXGroup;
+			children = (
+				3D4BE7EF2470A8093DADB0F723DB1B3E /* lodepng.c */,
+				30E9CCC1DBB58FB983FF3367020C9FB0 /* lodepng.h */,
 			);
 			name = lodepng;
 			path = PNGScissors/Classes/lodepng;
-			sourceTree = "<group>";
-		};
-		742859E7231A5CB000E18F97 /* pngquant */ = {
-			isa = PBXGroup;
-			children = (
-				742859E8231A5CB000E18F97 /* pam.h */,
-				742859EF231A5CB000E18F97 /* pam.c */,
-				742859EA231A5CB000E18F97 /* blur.h */,
-				742859F1231A5CB000E18F97 /* blur.c */,
-				742859F0231A5CB000E18F97 /* mediancut.h */,
-				742859EB231A5CB000E18F97 /* mediancut.c */,
-				742859EC231A5CB000E18F97 /* nearest.h */,
-				742859F5231A5CB000E18F97 /* nearest.c */,
-				742859ED231A5CB000E18F97 /* mempool.c */,
-				742859EE231A5CB000E18F97 /* kmeans.h */,
-				742859F2231A5CB000E18F97 /* libimagequant.h */,
-				742859E9231A5CB000E18F97 /* libimagequant.c */,
-				742859F3231A5CB000E18F97 /* kmeans.c */,
-				742859F4231A5CB000E18F97 /* mempool.h */,
-			);
-			name = pngquant;
-			path = PNGScissors/Classes/pngquant;
-			sourceTree = "<group>";
-		};
-		827B91C850A524B858AA1FC831978A18 /* PNGScissors */ = {
-			isa = PBXGroup;
-			children = (
-				742859E0231A5CB000E18F97 /* PNGScissors.h */,
-				74285A0A231A667E00E18F97 /* minipng.h */,
-				742859E1231A5CB000E18F97 /* UIImage.swift */,
-				742859E3231A5CB000E18F97 /* minipng.c */,
-				742859E4231A5CB000E18F97 /* lodepng */,
-				742859E7231A5CB000E18F97 /* pngquant */,
-				BDFF6EB9A7202B006B88A6DEB92DE1A8 /* Pod */,
-				64E2AFFE9925F8EE6226E051EC213FC5 /* Support Files */,
-			);
-			name = PNGScissors;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		AF355EB7CB4D8300B33CB699512BCCB5 /* Pods-PNGScissors_Tests */ = {
@@ -249,14 +221,20 @@
 			path = "Target Support Files/Pods-PNGScissors_Tests";
 			sourceTree = "<group>";
 		};
-		BDFF6EB9A7202B006B88A6DEB92DE1A8 /* Pod */ = {
+		B2DBF448852897957A3D8F651B965071 /* PNGScissors */ = {
 			isa = PBXGroup;
 			children = (
-				746CB567A8EF9E24B2F793B31F75D734 /* LICENSE */,
-				C80C424895D008EC0BF30ACA01608CEC /* PNGScissors.podspec */,
-				586FE2CBA10519D955D83CD5295BC87A /* README.md */,
+				85E895B59B185ED73833665A59C34829 /* minipng.c */,
+				6C4DEB7F72A64864B8D3898B47FBF0CE /* minipng.h */,
+				FD0D619E52BE73A52912CA423F8C19B3 /* PNGScissors.h */,
+				C09AD7B3209A40DD349E580A46778719 /* UIImage.swift */,
+				98D50EA94E50C7A78EE0BE21452D1BC9 /* lodepng */,
+				E3ED182CD61154DD1FE6F8983F275621 /* pngquant */,
+				05E793D3A7084B91ECB3D49B64DF325F /* Pod */,
+				7E0EAF2AB855AE77ADB40660CBE3AF4E /* Support Files */,
 			);
-			name = Pod;
+			name = PNGScissors;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -271,7 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				5C3346A3163CCF9524D4580035026283 /* Development Pods */,
+				8CD5029A29C479EDA0BDB43A602BE8DC /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				FD0A250F95F45DA582232054B495DC37 /* Products */,
 				1065A57CB23C27386BA9AF5D2D4DB0D0 /* Targets Support Files */,
@@ -284,6 +262,28 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3ED182CD61154DD1FE6F8983F275621 /* pngquant */ = {
+			isa = PBXGroup;
+			children = (
+				68F207B637BD250BF9A16A2176D7A338 /* blur.c */,
+				BD41757312389A7B44645EE691AC1202 /* blur.h */,
+				1A17DF3CB618E927645CDB1D831C5F86 /* kmeans.c */,
+				ABAABF1C79C647DC5B9EA859CF42F1CC /* kmeans.h */,
+				7B9A2871D6B66E3C0E196C82C30D7624 /* libimagequant.c */,
+				A20364840029CA7D228C5AD48E7608DA /* libimagequant.h */,
+				42EC7DD690F4DDEF92FA84A3CF1FD939 /* mediancut.c */,
+				2A799C0CF0A01A9A869742FDFDA486CF /* mediancut.h */,
+				D804CB61D852292E08157A18BDCF0837 /* mempool.c */,
+				4020AD31B2E09CCBEE0DCADD38C08B0A /* mempool.h */,
+				6B987027498DF92E0014E6B5CAFA9E05 /* nearest.c */,
+				5E236C0F0DCF8F6C8AD5AE04B0629752 /* nearest.h */,
+				EBC372BE9F333DDC19BB8ED9A38658E8 /* pam.c */,
+				F483FB5E145D82C71CFB0589C8F54020 /* pam.h */,
+			);
+			name = pngquant;
+			path = PNGScissors/Classes/pngquant;
 			sourceTree = "<group>";
 		};
 		FD0A250F95F45DA582232054B495DC37 /* Products */ = {
@@ -299,29 +299,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3EDA87AF466DB097206ED4F6E7CF91FC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				742859F6231A5CB000E18F97 /* PNGScissors.h in Headers */,
-				74285A0B231A667E00E18F97 /* minipng.h in Headers */,
-				41C93792C9D7BF99AAFF4DE200E70A31 /* PNGScissors-umbrella.h in Headers */,
-				74285A08231A5CB000E18F97 /* mempool.h in Headers */,
-				742859FC231A5CB000E18F97 /* pam.h in Headers */,
-				742859FE231A5CB000E18F97 /* blur.h in Headers */,
-				74285A04231A5CB000E18F97 /* mediancut.h in Headers */,
-				742859FA231A5CB000E18F97 /* lodepng.h in Headers */,
-				74285A02231A5CB000E18F97 /* kmeans.h in Headers */,
-				74285A06231A5CB000E18F97 /* libimagequant.h in Headers */,
-				74285A00231A5CB000E18F97 /* nearest.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4621711349AFDF4CA6BC69896ABC1A9D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				09EC271381B994BE0573A716D47815E2 /* Pods-PNGScissors_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52757C633FC8AE57CF9E4E73392B8450 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64246B9D843093E7D4767A9398E43A8D /* blur.h in Headers */,
+				2BCABAB86BB8032866648BF8CCC62809 /* kmeans.h in Headers */,
+				BB4DA6962C992C4DB622D6F1B3F1190A /* libimagequant.h in Headers */,
+				B094D0F2DBA4823C45E27F25E8924EE4 /* lodepng.h in Headers */,
+				1B67B31D35B290B79E2E9899B41639F4 /* mediancut.h in Headers */,
+				62D12672D4EE666D9E4BD83FC3FFBCE2 /* mempool.h in Headers */,
+				D099090EA5341F2E92AD9D1D83A5309F /* minipng.h in Headers */,
+				CA02FFF0EB9D55428EA439947384F089 /* nearest.h in Headers */,
+				3FEC842E6612110C7C112C86889606C7 /* pam.h in Headers */,
+				DA1C5A73D54A62CA2EECA872321A016F /* PNGScissors-umbrella.h in Headers */,
+				849A3C2C06E0DBE2F3678B9E0BB9391F /* PNGScissors.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,12 +376,12 @@
 		};
 		E6BA59041EFCE5CA99C7E631C8A82B17 /* PNGScissors */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FDEC055B5486EAA11800EDEFCA30B07 /* Build configuration list for PBXNativeTarget "PNGScissors" */;
+			buildConfigurationList = 6D4AA827CD2AE9271CEEBA58CDD1F49E /* Build configuration list for PBXNativeTarget "PNGScissors" */;
 			buildPhases = (
-				3EDA87AF466DB097206ED4F6E7CF91FC /* Headers */,
-				75EB5AC92251B62C4052C5FC2B53BE6D /* Sources */,
-				3DD949C06718001B59C86652EFC6BCD9 /* Frameworks */,
-				19B6305915A855D2E873464FAAAE545C /* Resources */,
+				52757C633FC8AE57CF9E4E73392B8450 /* Headers */,
+				FE77F884AA4624A899D3EDAF03ADF691 /* Sources */,
+				1A06160E939BD96145A23E5D1ABA9E99 /* Frameworks */,
+				7B8023AB4CC8281CC6850A3B3301DF08 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -400,11 +400,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					E6BA59041EFCE5CA99C7E631C8A82B17 = {
-						LastSwiftMigration = 1030;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -433,7 +428,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		19B6305915A855D2E873464FAAAE545C /* Resources */ = {
+		7B8023AB4CC8281CC6850A3B3301DF08 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -458,29 +453,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75EB5AC92251B62C4052C5FC2B53BE6D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74285A07231A5CB000E18F97 /* kmeans.c in Sources */,
-				74285A05231A5CB000E18F97 /* blur.c in Sources */,
-				74285A09231A5CB000E18F97 /* nearest.c in Sources */,
-				5AB84FEC6806DFE4F4F3B8A5EEFAF6C1 /* PNGScissors-dummy.m in Sources */,
-				74285A01231A5CB000E18F97 /* mempool.c in Sources */,
-				742859F7231A5CB000E18F97 /* UIImage.swift in Sources */,
-				742859FF231A5CB000E18F97 /* mediancut.c in Sources */,
-				74285A03231A5CB000E18F97 /* pam.c in Sources */,
-				742859F9231A5CB000E18F97 /* minipng.c in Sources */,
-				742859FD231A5CB000E18F97 /* libimagequant.c in Sources */,
-				742859FB231A5CB000E18F97 /* lodepng.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A87E63E9741B95842F34946EE5757884 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F5BB937F702CE07E14BB3D76C4390715 /* Pods-PNGScissors_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE77F884AA4624A899D3EDAF03ADF691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025B622AEF90083C2BE895AA557B08FE /* blur.c in Sources */,
+				EBB129AA97CB3685F3F0BA34EA0CE6ED /* kmeans.c in Sources */,
+				C34A3924ADB0094837F915A7BAC2F671 /* libimagequant.c in Sources */,
+				1F499588DB9B47EEB92E837AFF076557 /* lodepng.c in Sources */,
+				1F92F30F51E217EA84A606DC9391CDF7 /* mediancut.c in Sources */,
+				D5564189446FAE3455F47EE491EE7B5C /* mempool.c in Sources */,
+				818BC10642D3A5D11316EBF70902C115 /* minipng.c in Sources */,
+				F9369A1D5CF28D36BE288702F5E226A8 /* nearest.c in Sources */,
+				FD5401DFA7DEC725E8AE587B27D8DD85 /* pam.c in Sources */,
+				987FA1E7F93572B31D588C528191EC52 /* PNGScissors-dummy.m in Sources */,
+				14AD88A455710461A8889464359AEFBA /* UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,11 +497,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4732EE0B0CAA610BBC3177F073AC0BE1 /* Release */ = {
+		3BEE81C6853FBC16AFA7B3B5D84A8CAF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8835D69A7697B39628A982A3B9B008F /* PNGScissors.xcconfig */;
+			baseConfigurationReference = 722000414A7208D4B7AEA8BDC755C1F1 /* PNGScissors.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -519,7 +513,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PNGScissors/PNGScissors-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PNGScissors/PNGScissors-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PNGScissors/PNGScissors.modulemap";
 				PRODUCT_MODULE_NAME = PNGScissors;
@@ -529,11 +523,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		55AEA16AEC58C84E8A44E34EC995B622 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -551,7 +544,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PNGScissors_Tests/Pods-PNGScissors_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PNGScissors_Tests/Pods-PNGScissors_Tests.modulemap";
@@ -616,7 +609,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -678,7 +671,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -707,7 +700,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PNGScissors_Example/Pods-PNGScissors_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PNGScissors_Example/Pods-PNGScissors_Example.modulemap";
@@ -741,7 +734,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PNGScissors_Example/Pods-PNGScissors_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PNGScissors_Example/Pods-PNGScissors_Example.modulemap";
@@ -758,11 +751,10 @@
 			};
 			name = Debug;
 		};
-		D110EA9F5A05D9F5066C83CEFEFCBDA7 /* Debug */ = {
+		CD66AFD57A6D58DA4E5D54C3119F92C3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8835D69A7697B39628A982A3B9B008F /* PNGScissors.xcconfig */;
+			baseConfigurationReference = 722000414A7208D4B7AEA8BDC755C1F1 /* PNGScissors.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -775,7 +767,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PNGScissors/PNGScissors-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PNGScissors/PNGScissors-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PNGScissors/PNGScissors.modulemap";
 				PRODUCT_MODULE_NAME = PNGScissors;
@@ -783,13 +775,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		F4662BB55E1C9FA6EF489CC93D5673DD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -807,7 +799,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PNGScissors_Tests/Pods-PNGScissors_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PNGScissors_Tests/Pods-PNGScissors_Tests.modulemap";
@@ -846,11 +838,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FDEC055B5486EAA11800EDEFCA30B07 /* Build configuration list for PBXNativeTarget "PNGScissors" */ = {
+		6D4AA827CD2AE9271CEEBA58CDD1F49E /* Build configuration list for PBXNativeTarget "PNGScissors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D110EA9F5A05D9F5066C83CEFEFCBDA7 /* Debug */,
-				4732EE0B0CAA610BBC3177F073AC0BE1 /* Release */,
+				3BEE81C6853FBC16AFA7B3B5D84A8CAF /* Debug */,
+				CD66AFD57A6D58DA4E5D54C3119F92C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
