@@ -1,8 +1,5 @@
 # PNGScissors
-
-[![Version](https://img.shields.io/cocoapods/v/PNGScissors.svg?style=flat)](https://cocoapods.org/pods/PNGScissors)
-[![License](https://img.shields.io/cocoapods/l/PNGScissors.svg?style=flat)](https://cocoapods.org/pods/PNGScissors)
-[![Platform](https://img.shields.io/cocoapods/p/PNGScissors.svg?style=flat)](https://cocoapods.org/pods/PNGScissors)
+Swift PNG compression tool for iOS based [libimagequant](https://github.com/ImageOptim/libimagequant).
 
 ## Support
 `iOS 9.3+`
