@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PNGScissors'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A PNG image compression tool.'
   s.swift_version    = '5.0'
 
