@@ -30,4 +30,6 @@ pod 'PNGScissors'
 
 ## License
 
-PNGScissors is available under the MIT license. See the LICENSE file for more info.
+This project is based [libimagequant](https://github.com/ImageOptim/libimagequant)
+
+PNGScissors is available under the GPL v3 license. See the LICENSE file for more info.
